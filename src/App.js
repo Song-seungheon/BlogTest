@@ -76,7 +76,7 @@ function App() {
         <p>2월 17일 발행</p>
       </div> */}
       {
-        logo.map(function (title, i) {
+        logo.map(function (title, i) { 
           return (<div className='list'>
             <h4 onClick={()=>logoClick(i)}>{title}
               <span onClick={(e) => goodClick(i, e)}>👍</span> {good[i]} 
